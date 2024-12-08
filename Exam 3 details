@@ -1,0 +1,27 @@
+Create a racing calculator that asks the user to enter however many lap times (in seconds) they want to enter and then calculates the sum, minimum and the maximum of all the lap times.
+
+You must store the times into a linked list, and then you'll get the values in the linked list to determine the sum, minimum value and maximum value. Please note that you must use the values in the linked list exclusively.
+Finally you'll display the results as seen in the sample output below. Note that the sum must display the data in minutes and seconds format.
+---------------------------------
+
+Here is a sample output of the program
+
+How many lap time values are you going to enter: 3
+Enter lap time 1: 30
+Enter lap time 2: 40
+Enter lap time 3: 20
+
+The sum is of the lap times is 1 minute and 30 seconds
+The min is 20
+The max is 40
+
+---------------------------------
+
+Software Requirements
+
+Create a linked list that holds doubles in your source.cpp that will store the double time values entered by the user.
+Store the user's entered time values in a linked list
+Once all the values have been entered traverse the linked list to find and use the smallest and largest time values.
+Traverse the linked list to determine the sum and then display it in minute, seconds format
+Only display two numbers after the decimal point
+When you are done outputting the results make sure to clear all of the nodes then delete the linked list object to return all of the memory resources used in your program.
